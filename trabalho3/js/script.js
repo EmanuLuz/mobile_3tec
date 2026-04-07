@@ -1,14 +1,30 @@
-function converter_Fahrenheit() {
+// alt 167 = º
+console.log("Programa para calcular média dos alunos");
 
-    let celcius;
-    let resultado;
-    const FATOR_MULTIPLICADOR = 1.8;
+function calcularMedia() {
 
-    celcius = document.getElementById("celcius").value;
+    let nome_aluno = document.getElementById("nome_aluno").value;
+    console.log(nome_aluno);
+
+    let primeira_nota = Number(document.getElementById("primeira_nota").value);
+    console.log(primeira_nota);
     
-    resultado = celcius * FATOR_MULTIPLICADOR + 32;
-    // resultado = (9 * celcius + 160) / 5;
-
-    document.getElementById("resultado").innerHTML = resultado + " fahrenheit";
+    let segunda_nota = Number(document.getElementById("segunda_nota").value);
+    console.log(segunda_nota);
     
+    let terceira_nota = Number(document.getElementById("terceira_nota").value);
+    console.log(terceira_nota);
+
+    let resultado = (primeira_nota + segunda_nota + terceira_nota) / 3;
+    console.log(resultado);
+
+    let resposta = document.getElementById("resposta").value;
+
+    if (resposta == "S"){
+        console.log("Continua");
+    } else {
+        console.log("Pare");
+    }
 }
+
+
