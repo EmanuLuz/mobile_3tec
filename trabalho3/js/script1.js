@@ -37,6 +37,5 @@ function calcularMedia() {
 
     } while ( resposta == "S" );
 
-
 }
 
