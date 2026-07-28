@@ -7,29 +7,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <label for="">Nome do Aluno</label>
-    <input type="text" placeholder="nome do Aluno" name="nome_aluno" id="nome_aluno">
-    <br><br>
-    
-    <label for="">Nota 1º Trimestre</label>
-    <input type="text" placeholder="Nota 1º Trimestre" name="primeira_nota" id="primeira_nota">
-    <br><br>
-    
-    <label for="">Nota 2º Trimestre</label>
-    <input type="text" placeholder="Nota 2º Trimestre" name="segunda_nota" id="segunda_nota">
-    <br><br>
+<div class="quadrado-roxo">
+        <h2>Média do Aluno</h2>
+        
+        <label>Nome do Aluno</label>
+        <input type="text" placeholder="Nome do Aluno" id="nome_aluno">
 
-    <label for="">Nota 3º Trimestre</label>
-    <input type="text" placeholder="Nota 3º Trimestre" name="terceira_nota" id="terceira_nota">
-    <br><br>
+        <label>Nota 1º Trimestre</label>
+        <input type="text" placeholder="Nota 1" id="primeira_nota">
 
-    <label for="">Deseja Continuar? S/N</label>
-    <input type="text" placeholder="responda aqui" name="resposta" id="resposta">
-    <br><br>
+        <label>Nota 2º Trimestre</label>
+        <input type="text" placeholder="Nota 2" id="segunda_nota">
 
-    <button type="button" id="btn_calcular_media" onclick="calcularMedia()">Calcular Média</button>
+        <label>Nota 3º Trimestre</label>
+        <input type="text" placeholder="Nota 3" id="terceira_nota">
+
+        <label>Deseja Continuar? S/N</label>
+        <input type="text" placeholder="S ou N" id="resposta">
+
+        <button type="button" id="btn_calcular_media" onclick="calcularMedia()">Calcular Média</button>
+        
+        <div id="painel_resultado"></div>
+    </div>
 
     <!-- <script src="js/script.js"></script> -->
-    <script src="/trabalho3/js/script2.js"></script>
+    <!-- <script src="/trabalho3/js/script2.js"></script> -->
+     <script src="/trabalho3/js/script3.js"></script>
 </body>
 </html>

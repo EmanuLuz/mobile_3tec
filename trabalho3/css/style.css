@@ -1,0 +1,58 @@
+body {
+    background-color: #f0ebf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.quadrado-roxo {
+    background-color: white;
+    width: 350px; /* Mantém o formato quadrado/retangular fixo
+    padding: 30px;
+    border: 2px solid #d1c4e9;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+h2 { color: #673ab7; text-align: center; margin-top: 0; }
+
+label {
+    color: #5e35b1;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #d1c4e9;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus { border-color: #7e57c2; }
+
+button {
+    background-color: #9575cd;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover { background-color: #7e57c2; }
+
+#painel_resultado {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #4a148c;
+} 
